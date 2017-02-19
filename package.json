@@ -1,0 +1,21 @@
+{
+  "name": "webpackdemo",
+  "version": "1.0.0",
+  "description": "webpack",
+  "main": "index.js",
+  "scripts": {
+    "server": "webpack-dev-server",
+    "complie": "webpack -d --progress --colors"
+  },
+  "keywords": [
+    "webpack"
+  ],
+  "author": "charon",
+  "license": "ISC",
+  "devDependencies": {
+    "css-loader": "^0.26.1",
+    "style-loader": "^0.13.1",
+    "webpack": "^2.2.1",
+    "webpack-dev-server": "^2.3.0"
+  }
+}
